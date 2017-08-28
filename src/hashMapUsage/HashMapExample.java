@@ -22,9 +22,9 @@ public class HashMapExample {
 		employee.put(456879, "Ravi");
 		employee.put(345671, "Ashish");
 
-		// Traversing Map
+		
 		Set set = employee.entrySet(); // Converting to Set so that we can traverse
-										
+		// Traversing set								
 		Iterator iterator = set.iterator();
 		System.out.println("Employee Names:");
 		while (iterator.hasNext()) {
